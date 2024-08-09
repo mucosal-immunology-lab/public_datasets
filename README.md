@@ -2,9 +2,30 @@
 
 Here we provide a list of publicly-available datasets that we have generated and uploaded to repositories. Some of the data is yet to be released, and will be available following publication.
 
+- [Public datasets](#public-datasets)
+  - [NCBI Sequencing Read Archive](#ncbi-sequencing-read-archive)
+    - [Summary](#summary)
+    - [Datasets](#datasets)
+  - [European Nucleotide Archive](#european-nucleotide-archive)
+    - [Summary](#summary-1)
+    - [Datasets](#datasets-1)
+
+
 ## NCBI Sequencing Read Archive
 
 The following datasets have been uploaded to the NCBI Sequencing Read Archive (SRA) database in their original FASTQ data format.
+
+### Summary
+
+| Sequencing type | Sequencing runs (uploaded) |
+|---|---|
+| Bulk transcriptomics | 425 |
+| Single-cell transcriptomics | 2 |
+| Shotgun metagenomics | 310 |
+| 16S amplicon | 1,069 |
+| ITS amplicon | 373 |
+
+### Datasets
 
 | Host organism | Context | BioProject | Bulk transcriptomics | Single-cell transcriptomics| Shotgun metagenomics | 16S amplicon | ITS amplicon | Availability |
 |---|---|---|---|---|---|---|---|---|
@@ -21,26 +42,18 @@ The following datasets have been uploaded to the NCBI Sequencing Read Archive (S
 | Mouse | High fat diet | PRJNA1131116 | | | **24** ileum luminal samples + **24** ileum mucosal samples + **22** colon luminal samples | | | :hourglass_flowing_sand: To be released |
 | Mouse | Early life antibiotic treatment | PRJNA1112091 | | **2** lung structural cell digests | **96** stool samples | **41** lung tissue samples + **30** BAL samples | | :hourglass_flowing_sand: To be released |
 
-In summary:
-
-| Sequencing type | Sequencing runs (uploaded) |
-|---|---|
-| Bulk transcriptomics | 425 |
-| Single-cell transcriptomics | 2 |
-| Shotgun metagenomics | 310 |
-| 16S amplicon | 1,069 |
-| ITS amplicon | 373 |
-
 ## European Nucleotide Archive
 
 The following datasets have been uploaded to the European Nucleotide Archive (ENA) database in their original FASTQ data format.
 
-| Host organism | Context | Project ID | 16S amplicon | Availability |
-|---|---|---|---|---|
-| Human | Early life + atopic dermatitis | [PRJEB42268](https://www.ebi.ac.uk/ena/browser/view/PRJEB42268) &ndash; 2022 | **1,179** lateral upper arm swabs | :white_check_mark: Released |
-
-In summary:
+### Summary
 
 | Sequencing type | Sequencing runs (uploaded) |
 |---|---|
 | 16S amplicon | 1,179 |
+
+### Datasets
+
+| Host organism | Context | Project ID | 16S amplicon | Availability |
+|---|---|---|---|---|
+| Human | Early life + atopic dermatitis | [PRJEB42268](https://www.ebi.ac.uk/ena/browser/view/PRJEB42268) &ndash; 2022 | **1,179** lateral upper arm swabs | :white_check_mark: Released |
